@@ -1,0 +1,26 @@
+#lightbox{
+    height: 0;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+     overflow: hidden; 
+     transition: all 2s ease-in-out;
+}
+#lightbox:target{
+    height: 30%;
+    width: 25%;
+    top:25%;
+    left: 30%;
+    background:radial-gradient(red, cyan, blue);
+}
+
+#p1{
+    color: green;
+    font-weight: 800;
+    height: 1rem;
+    width:2rem;
+   padding-left: 40%;
+   padding-top: 20%;
+   
+}
